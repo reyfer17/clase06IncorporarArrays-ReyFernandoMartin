@@ -39,9 +39,9 @@ let productos1 = [gaseosaChica, gaseosaMediana, gaseosaGrande, pochocloChicoDulc
 console.log(productos1)
 
 //nuevos objetos para agregar a array
-const pochocloChicoSalado=new Pochoclo("Pochoclos chicos", 7,600,"dulce")
-const pochocloMedianoSalado =new Pochoclo("Pochoclos medianos", 8,800,"dulce")
-const pochocloGrandeSalado =new Pochoclo("Pochoclos grandes",9,1000,"dulce")
+const pochocloChicoSalado=new Pochoclo("Pochoclos chicos", 7,600,"salado")
+const pochocloMedianoSalado =new Pochoclo("Pochoclos medianos", 8,800,"salado")
+const pochocloGrandeSalado =new Pochoclo("Pochoclos grandes",9,1000,"salado")
 
 //agregado de objetos a array, agrego nuevos pochoclos del tipo salados
 let productos2 = [gaseosaChica, gaseosaMediana, gaseosaGrande, pochocloChicoDulce, pochocloMedianoDulce, pochocloGrandeDulce]
